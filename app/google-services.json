@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "100348169578",
+    "firebase_url": "https://lightthelima.firebaseio.com",
+    "project_id": "lightthelima",
+    "storage_bucket": "lightthelima.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100348169578:android:77c883ee3079541e",
+        "android_client_info": {
+          "package_name": "com.example.anandhu.lightthelima"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100348169578-aqulp06moiaff4fk8lm2956ni735ut31.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anandhu.lightthelima",
+            "certificate_hash": "ce402d4f7989455bee694c71d9e89cf62b9fe1a3"
+          }
+        },
+        {
+          "client_id": "100348169578-mtd9fjv3suvr0okqnd4s276srmuqrhgr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXCNcCLucrEmIqY5qEl3yXOBrsQLg1ROo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100348169578-mtd9fjv3suvr0okqnd4s276srmuqrhgr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

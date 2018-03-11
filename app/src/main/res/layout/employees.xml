@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/firstnameText"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginStart="32dp"
+        android:text="TextView"
+        app:layout_constraintBaseline_toBaselineOf="@+id/lastnametext"
+        app:layout_constraintEnd_toStartOf="@+id/lastnametext"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lastnametext"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="43dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginTop="43dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/delete"
+        app:layout_constraintEnd_toStartOf="@+id/delete"
+        app:layout_constraintStart_toEndOf="@+id/firstnameText"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="35dp"
+        android:layout_marginTop="43dp"
+        android:text="Update"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lastnametext"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_marginTop="27dp"
+        android:text="Delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lastnametext"
+        app:layout_constraintTop_toBottomOf="@+id/update" />
+
+    <TextView
+        android:id="@+id/dateTimeView"
+        android:layout_width="0dp"
+        android:layout_height="29dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="DateTime"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/delete"
+        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstnameText"
+        app:layout_constraintVertical_bias="0.035" />
+
+</android.support.constraint.ConstraintLayout>
